@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtnamestore"
+       android:textSize="50dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="60dp"
+       android:fontFamily="@font/starstrp"
+       android:gravity="center_horizontal"
+       android:textColor="@color/black"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtslogan"
+       android:textSize="15dp"
+       android:layout_gravity="center"
+       android:textColor="@color/black"
+       android:gravity="center_horizontal"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txthotline"
+       android:textSize="18dp"
+       android:textColor="@color/black"
+       android:layout_gravity="center"
+       android:gravity="center_horizontal"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtaddress"
+       android:textColor="@color/black"
+       android:textSize="15dp"
+       android:layout_gravity="center"
+       android:gravity="center_horizontal"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtsince"
+       android:textSize="20dp"
+       android:textColor="@color/black"
+       android:layout_gravity="center"
+       android:gravity="center_horizontal"/>
+</LinearLayout>

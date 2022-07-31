@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".WaitingActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="408dp"
+        android:layout_height="392dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtCakeshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/starstrp"
+        android:gravity="center_horizontal"
+        android:text="T &amp; T FRESH CAKE"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:id="@+id/txtPowered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dp"
+        android:text="Powered by AnhThu" />
+</FrameLayout>

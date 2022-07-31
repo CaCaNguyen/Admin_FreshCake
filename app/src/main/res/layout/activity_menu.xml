@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/btn_ThongKe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_assessment_24"
+            android:padding="7dp"
+            android:text="THỐNG KÊ"
+            android:textColor="@color/black" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/btn_CTGiohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_shopping_cart_24"
+            android:padding="7dp"
+            android:text="Chi Tiết Giỏ hàng"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_Danhmuc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/white"
+                android:text="Danh mục"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/btn_Sanpham"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/white"
+                android:text="Sản phẩm"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_KichThuoc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/white"
+                android:text="Kích thước"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_MoTa"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/white"
+                android:text="Mô Tả"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_GioHang"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/white"
+                android:text="Gio Hang"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_KhachHang"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/white"
+                android:text="Khách HÀNG"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnDoanhthu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="0"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Thống kê doanh thu"
+        android:textColor="@color/black" />
+
+</LinearLayout>

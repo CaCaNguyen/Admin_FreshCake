@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KichThuoc.KichThuocActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDanhmuc"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="CAKE SIZE T&amp;T FRESH CAKE"
+        android:textColor="#FDD835"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layoutBaoAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Apptoolbar_Manage"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIZE:"
+                android:textColorHint="@color/teal_200"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txtSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddkichthuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FDD835"
+            android:text="Add"
+            android:textColor="#000000"
+            android:textColorHint="#ff0000" />
+
+        <Button
+            android:id="@+id/btnUpdatekichthuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FDD835"
+            android:text="Update"
+            android:textColor="#000000"
+            android:textColorHint="#ff0000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutBaoAll"
+        android:gravity="center"
+        android:text="Danh Sách Size Bánh T&amp;T Fresh Cake"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

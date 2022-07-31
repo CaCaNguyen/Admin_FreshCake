@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuaSanPham.SuaSanPhamActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDanhmuc"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="CẬP NHẬT SẢN PHẨM BÁNH NGỌT"
+        android:textColor="#FDD835"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layoutBaoAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Apptoolbar_Manage"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:textColorHint="@color/teal_200"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txtTensp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã sản phẩm"
+                android:textColorHint="@color/teal_200"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txtMasanpham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số lượng"
+                android:textColorHint="@color/teal_200"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txtSoluong"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtUrlHinhAnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="URL hình ảnh cho sản phẩm"
+            android:inputType="textUri"
+            android:textColorHint="#FFB300" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:inputType="text"
+            android:textColorHint="#000000"
+            android:src="@drawable/ic_baseline_image_search_24"/>
+        <!--        button de lay hinh va reset data-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/clearbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#00ACC1"
+                android:text="clear data"
+                android:textColor="#E53935"
+                android:textColorHint="#ff0000" />
+
+            <Space
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/fetchbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#00ACC1"
+                android:text="fetch data"
+                android:textColor="#E53935"
+                android:textColorHint="#ff0000" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtNoidungsanpham"
+            android:layout_width="match_parent"
+            android:layout_height="30pt"
+            android:gravity="center"
+            android:hint="Nội dung cho sản phẩm"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danh mục"
+                android:textColorHint="@color/teal_200"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/suaSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FDD835"
+            android:text="Cập nhật"
+            android:textColor="#000000"
+            android:textColorHint="#ff0000" />
+    </LinearLayout>
+
+</LinearLayout>

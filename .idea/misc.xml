@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_attach_money_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_cake_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_category_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_confirmation_number_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_create_pencil.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_local_phone_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.1525" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_menu_open_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1525" />
+        <entry key="app/src/main/res/drawable/ic_baseline_123_24.xml" value="0.1525" />
+        <entry key="app/src/main/res/drawable/ic_round_panorama_fish_eye_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.2484375" />
+        <entry key="app/src/main/res/layout/activity_admin.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/activity_chi_tiet_gio_hang.xml" value="0.19921875" />
+        <entry key="app/src/main/res/layout/activity_dang_ky.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout/activity_danh_muc.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/activity_doanh_thu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_don_hang.xml" value="0.21428571428571427" />
+        <entry key="app/src/main/res/layout/activity_kich_thuoc.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.2552083333333333" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_mo_ta.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_san_pham.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/activity_sua_mo_ta.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/activity_sua_san_pham.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/activity_them_admin.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_them_mo_ta.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/activity_them_san_pham.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_thong_ke_ban.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/activity_thong_ke_mua.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_waiting.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_xac_nhan_don_hang.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout/layout_item_about.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/layout_item_admin.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/layout_item_chitietgiohang.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/layout/layout_item_dangky.xml" value="0.14222222222222222" />
+        <entry key="app/src/main/res/layout/layout_item_danhmuc.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/layout_item_donhang.xml" value="0.18888888888888888" />
+        <entry key="app/src/main/res/layout/layout_item_kichthuoc.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/layout_item_mota.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/layout_item_sanpham.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/layout_item_thongkeban.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/layout_item_thongkedoanhthu.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/layout_item_thongkemua.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.228125" />
+        <entry key="app/src/main/res/menu/menu_admin.xml" value="0.19537037037037036" />
+        <entry key="app/src/main/res/menu/menu_chitietgiohang.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_dangky.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_danhmuc.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_giohang.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_khachhang.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_kichthuoc.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_mota.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/menu/menu_sanpham.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/menu/menu_thongkeban.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/menu/menu_thongkemua.xml" value="0.2557291666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
